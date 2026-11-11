@@ -156,8 +156,12 @@ PlasmoidItem {
         Layout.minimumWidth: 320; Layout.minimumHeight: 360
         Layout.preferredWidth: 360; Layout.preferredHeight: 460
 
+        // privacy mode (screen recordings): only the message list is blurred and ignores the mouse;
+        // header, composer and card stay normal. Hovering doesn't mark messages read meanwhile.
+        readonly property bool privacy: Plasmoid.configuration.privacy
+
         HoverHandler { id: hover }
-        Timer { interval: 700; running: hover.hovered && root.unread > 0; onTriggered: root.sendCmd({ t: "read" }) }
+        Timer { interval: 700; running: hover.hovered && root.unread > 0 && !card.privacy; onTriggered: root.sendCmd({ t: "read" }) }
 
         // drag & drop files onto the card
         DropArea {
@@ -312,6 +316,9 @@ PlasmoidItem {
         ListView {
             id: list
             anchors { left: parent.left; right: parent.right; top: sep.bottom; bottom: composer.top; topMargin: 6; bottomMargin: 6 }
+            enabled: !card.privacy
+            layer.enabled: card.privacy
+            layer.effect: MultiEffect { blurEnabled: true; blur: 1.0; blurMax: 32; blurMultiplier: 0.5 }
             visible: root.connState === "ok"
             clip: true
             spacing: 6

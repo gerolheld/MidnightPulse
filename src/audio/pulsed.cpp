@@ -114,7 +114,9 @@ public:
         connect(&m_coverPoll, &QTimer::timeout, this, &Pulsed::pollCover);
         m_coverPoll.start();
         m_recolor.setSingleShot(true);
-        m_recolor.setInterval(1600);   // after the 1.4 s QML colour glide, so the reload doesn't hit mid-animation
+        // the static reload (Plasma style, colour scheme, window frames, cursor) briefly stalls plasmashell, so it
+        // waits until the user settles on a colour: every new pick restarts the timer. Live parts recolour at once.
+        m_recolor.setInterval(4000);
         connect(&m_recolor, &QTimer::timeout, this, &Pulsed::runRecolor);
     }
     ~Pulsed() override { stop(); }

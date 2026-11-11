@@ -179,14 +179,20 @@ if not identity and cur_src.exists():
 
 # ---- apply ---------------------------------------------------------------------------------
 r, g, b = tx_rgb(30, 176, 234)
+# Each reload costs plasmashell/KWin ~0.1 s of main-thread work; back to back they stacked into a ~0.35 s
+# freeze of every animation. Spaced out, each one is a single dropped frame or two.
+GAP = 0.45
 kw('kdeglobals', 'General', 'AccentColor', f'{r},{g},{b}')
 sh('plasma-apply-colorscheme', tag)
+time.sleep(GAP)
 for f in (H / '.cache').glob('plasma_theme_MidnightPulse*'):
     f.unlink(missing_ok=True)
 sh('plasma-apply-desktoptheme', tag)
+time.sleep(GAP)
 kw('kwinrc', 'org.kde.kdecoration2', 'theme', f'__aurorae__svg__{tag}')
 sh('qdbus6', 'org.kde.KWin', '/KWin', 'reconfigure')
 sh('pkill', '-USR2', '-x', 'cava')            # cava reloads its colours on SIGUSR2
+time.sleep(GAP)
 sh('plasma-apply-cursortheme', cursor)
 
 # ---- drop older variants (but never the one in use) ----------------------------------------

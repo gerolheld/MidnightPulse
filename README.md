@@ -2,9 +2,9 @@
 
 Анимированная тема для KDE Plasma 6 в глубоком ночном синем. Обои, панель, док и виджеты пульсируют под музыку, а цвет всей темы меняется на лету: 18 палитр, RGB-перелив, цвет обложки трека или свой.
 
-<!-- скриншот: положи файл в screenshots/desktop.png и раскомментируй
 ![Midnight Pulse](screenshots/desktop.png)
--->
+
+▶ **[Видео-обзор (1:15)](https://github.com/gerolheld/MidnightPulse/releases/download/v1.0/midnight-pulse-showcase.mp4)**: палитры под бит, RGB-перелив, цвет обложки, Dynamic Island, док, рабочие столы.
 
 ## Установка
 
@@ -92,6 +92,10 @@ midnight-pulse-tg-login             # api_id/api_hash с my.telegram.org, вхо
 ```
 
 Отключить доступ: Telegram → Настройки → Устройства → Midnight Pulse widget.
+
+## Запись экрана
+
+`scripts/chat-privacy.sh on` размывает ленту сообщений в карточке Telegram (шапка и поле ввода остаются), `off` возвращает как было. Пока размытие включено, наведение на карточку не отмечает сообщения прочитанными.
 
 ## Производительность
 
