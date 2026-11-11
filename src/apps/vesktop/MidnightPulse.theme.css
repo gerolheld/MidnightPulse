@@ -1,0 +1,44 @@
+/**
+ * @name Midnight Pulse
+ * @description Deep night-blue glass with glowing accents — matches the Midnight Pulse KDE theme.
+ * @author Midnight Pulse
+ * @version 1.0.0
+ */
+:root, .theme-dark, .visual-refresh.theme-dark {
+  --mp-bg: #070B18; --mp-panel: #0D1630; --mp-surface: #111D3D; --mp-hi: #1A2A55;
+  --mp-accent: #1EB0EA; --mp-accent-hi: #5FD0FF; --mp-accent2: #3D6BFF; --mp-text: #DCE8FF; --mp-dim: #8FA3C8;
+  --background-primary: var(--mp-panel) !important;
+  --background-secondary: #0A1226 !important;
+  --background-secondary-alt: #0B142B !important;
+  --background-tertiary: var(--mp-bg) !important;
+  --background-base-low: #0A1226 !important;
+  --background-base-lower: var(--mp-bg) !important;
+  --background-base-lowest: #05080F !important;
+  --background-surface-high: var(--mp-surface) !important;
+  --background-surface-higher: var(--mp-hi) !important;
+  --background-floating: #0E1834 !important;
+  --background-modifier-hover: rgba(30,176,234,.08) !important;
+  --background-modifier-selected: rgba(30,176,234,.16) !important;
+  --background-modifier-active: rgba(30,176,234,.20) !important;
+  --channeltextarea-background: #0F1A38 !important;
+  --chat-background-default: var(--mp-panel) !important;
+  --text-normal: var(--mp-text) !important; --text-default: var(--mp-text) !important;
+  --text-muted: var(--mp-dim) !important; --header-primary: #F2F7FF !important; --header-secondary: var(--mp-dim) !important;
+  --interactive-normal: #B9C8E6 !important; --interactive-hover: #FFFFFF !important; --interactive-active: var(--mp-accent-hi) !important;
+  --brand-500: var(--mp-accent) !important; --brand-560: #1798CC !important; --brand-600: #1585B3 !important;
+  --brand-experiment: var(--mp-accent) !important;
+  --text-link: var(--mp-accent-hi) !important;
+  --scrollbar-auto-thumb: rgba(95,208,255,.25) !important; --scrollbar-thin-thumb: rgba(95,208,255,.25) !important;
+  --border-subtle: rgba(120,190,255,.12) !important; --border-faint: rgba(120,190,255,.08) !important;
+  --font-primary: "Inter", "gg sans", sans-serif;
+}
+/* subtle night-sky glow behind the app */
+#app-mount { background: radial-gradient(1000px 420px at 50% 115%, rgba(30,176,234,.14), transparent 70%), #070B18 !important; }
+/* mentions & selected channel glow */
+[class*="modeSelected"] [class*="link"], [class*="selected"] [class*="name"] { color: var(--mp-accent-hi) !important; }
+[class*="mentioned"] { background: rgba(30,176,234,.08) !important; box-shadow: inset 2px 0 0 var(--mp-accent) !important; }
+/* server icons: smooth morph */
+[class*="wrapper"][class*="guildIcon"], [class*="blobContainer"] { transition: border-radius .25s ease, transform .2s ease !important; }
+[class*="listItem"]:hover [class*="blobContainer"] { transform: scale(1.06); }
+/* message hover */
+[class*="message"][class*="cozy"]:hover { background: rgba(30,176,234,.05) !important; }

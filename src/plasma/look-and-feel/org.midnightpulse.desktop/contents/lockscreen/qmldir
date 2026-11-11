@@ -1,0 +1,9 @@
+# SPDX-FileCopyrightText: 2025 Yifan Zhu <fanzhuyifan@gmail.com>
+# SPDX-License-Identifier: GPL-2.0-or-later
+
+singleton PasswordSync 1.0 PasswordSync.qml
+MPClock 1.0 MPClock.qml
+MPSpectrum 1.0 MPSpectrum.qml
+PulseSource 1.0 PulseSource.qml
+SpectrumBars 1.0 SpectrumBars.qml
+Palette 1.0 Palette.qml

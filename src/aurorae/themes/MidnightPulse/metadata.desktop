@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Midnight Pulse
+X-KDE-PluginInfo-Name=__aurorae__svg__MidnightPulse
+X-KDE-ServiceTypes=KWin/Decoration
+X-Plasma-API=javascript

@@ -1,0 +1,14 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [{ "Name": "Midnight Pulse" }],
+    "Category": "Date and Time",
+    "Description": "Большие часы и живая анимированная погода",
+    "Icon": "weather-clear-night",
+    "Id": "org.midnightpulse.weather",
+    "License": "MIT",
+    "Name": "Midnight Pulse · Часы и погода",
+    "Version": "1.0"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

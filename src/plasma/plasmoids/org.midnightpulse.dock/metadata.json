@@ -1,0 +1,15 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [{ "Name": "Midnight Pulse" }],
+    "Category": "Windows and Tasks",
+    "Description": "Док с увеличением иконок в стиле macOS",
+    "Icon": "preferences-system-windows",
+    "Id": "org.midnightpulse.dock",
+    "License": "MIT",
+    "Name": "Midnight Pulse · Док",
+    "Version": "1.0"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0",
+  "X-Plasma-Provides": ["org.kde.plasma.multitasking"]
+}

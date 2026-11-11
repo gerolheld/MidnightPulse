@@ -1,0 +1,14 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [{ "Name": "Midnight Pulse" }],
+    "Category": "System Information",
+    "Description": "Кольцевые датчики CPU/GPU/RAM, температуры и сеть",
+    "Icon": "utilities-system-monitor",
+    "Id": "org.midnightpulse.system",
+    "License": "MIT",
+    "Name": "Midnight Pulse · Система",
+    "Version": "1.0"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

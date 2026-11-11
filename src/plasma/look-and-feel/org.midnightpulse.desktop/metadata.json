@@ -1,0 +1,12 @@
+{
+  "KPackageStructure": "Plasma/LookAndFeel",
+  "KPlugin": {
+    "Authors": [{ "Name": "Midnight Pulse" }],
+    "Description": "Глубокий ночной синий, стекло и всё пульсирует под музыку",
+    "Id": "org.midnightpulse.desktop",
+    "License": "MIT",
+    "Name": "Midnight Pulse",
+    "Version": "1.0"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

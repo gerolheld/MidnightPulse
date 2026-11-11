@@ -1,0 +1,13 @@
+{
+  "KPackageStructure": "Plasma/Wallpaper",
+  "KPlugin": {
+    "Authors": [{ "Name": "Midnight Pulse" }],
+    "Description": "Звёздное небо и северное сияние, пульсирующие под музыку",
+    "Icon": "preferences-desktop-wallpaper",
+    "Id": "org.midnightpulse.sky",
+    "License": "MIT",
+    "Name": "Midnight Pulse Sky",
+    "Version": "1.0"
+  },
+  "X-KDE-ParentApp": "org.kde.plasmashell"
+}

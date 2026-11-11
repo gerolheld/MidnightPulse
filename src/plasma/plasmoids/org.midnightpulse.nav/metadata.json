@@ -1,0 +1,15 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [{ "Name": "Midnight Pulse" }],
+    "Category": "Application Launchers",
+    "Description": "Лаунчер и рабочие столы Midnight Pulse",
+    "Icon": "start-here-kde",
+    "Id": "org.midnightpulse.nav",
+    "License": "MIT",
+    "Name": "Midnight Pulse · Навигация",
+    "Version": "1.0"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0",
+  "X-Plasma-Provides": ["org.kde.plasma.launchermenu"]
+}

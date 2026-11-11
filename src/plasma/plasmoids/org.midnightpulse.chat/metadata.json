@@ -1,0 +1,14 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [{ "Name": "Midnight Pulse" }],
+    "Category": "Online Services",
+    "Description": "Один чат из Telegram прямо на рабочем столе",
+    "Icon": "telegram",
+    "Id": "org.midnightpulse.chat",
+    "License": "MIT",
+    "Name": "Midnight Pulse · Чат",
+    "Version": "1.0"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

@@ -1,0 +1,16 @@
+{
+  "KPlugin": {
+    "Id": "MidnightPulse",
+    "Name": "Midnight Pulse",
+    "Description": "Deep night-blue glass with a pulsing accent",
+    "Version": "1.0",
+    "License": "MIT",
+    "Authors": [
+      {
+        "Name": "Midnight Pulse"
+      }
+    ]
+  },
+  "X-Plasma-API-Minimum-Version": "6.0",
+  "KPackageStructure": "Plasma/Theme"
+}

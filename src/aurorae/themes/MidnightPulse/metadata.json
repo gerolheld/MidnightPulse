@@ -1,0 +1,16 @@
+{
+  "KPlugin": {
+    "Id": "__aurorae__svg__MidnightPulse",
+    "Name": "Midnight Pulse",
+    "Description": "Glass titlebar with a glowing accent edge",
+    "Version": "1.0",
+    "License": "MIT",
+    "Authors": [
+      {
+        "Name": "Midnight Pulse"
+      }
+    ]
+  },
+  "KPackageStructure": "KWin/Decoration",
+  "X-Plasma-API": "javascript"
+}

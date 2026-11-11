@@ -1,0 +1,32 @@
+# Midnight Pulse colours for Alacritty (imported from alacritty.toml)
+[colors.primary]
+background = "#070B18"
+foreground = "#DCE8FF"
+
+[colors.cursor]
+text = "#070B18"
+cursor = "#5FD0FF"
+
+[colors.selection]
+text = "#FFFFFF"
+background = "#1C5CA0"
+
+[colors.normal]
+black = "#0D1630"
+red = "#FF6E96"
+green = "#62E6C8"
+yellow = "#FFD27A"
+blue = "#3D8BFF"
+magenta = "#9B8CFF"
+cyan = "#1EB0EA"
+white = "#B9C8E6"
+
+[colors.bright]
+black = "#3A4A72"
+red = "#FF8FB0"
+green = "#8DF0DA"
+yellow = "#FFE3A6"
+blue = "#6FA8FF"
+magenta = "#B8ADFF"
+cyan = "#5FD0FF"
+white = "#F2F7FF"

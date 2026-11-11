@@ -1,0 +1,14 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [{ "Name": "Midnight Pulse" }],
+    "Category": "Multimedia",
+    "Description": "Музыкальный Dynamic Island для верхней панели",
+    "Icon": "media-playback-start",
+    "Id": "org.midnightpulse.island",
+    "License": "MIT",
+    "Name": "Midnight Pulse · Island",
+    "Version": "1.0"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

@@ -1,0 +1,14 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [{ "Name": "Midnight Pulse" }],
+    "Category": "Date and Time",
+    "Description": "Часы с перелистыванием цифр и календарём",
+    "Icon": "preferences-system-time",
+    "Id": "org.midnightpulse.clock",
+    "License": "MIT",
+    "Name": "Midnight Pulse · Часы",
+    "Version": "1.0"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

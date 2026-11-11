@@ -1,0 +1,14 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [{ "Name": "Midnight Pulse" }],
+    "Category": "Multimedia",
+    "Description": "Плеер Spotify с живым визуализатором",
+    "Icon": "spotify-client",
+    "Id": "org.midnightpulse.player",
+    "License": "MIT",
+    "Name": "Midnight Pulse · Плеер",
+    "Version": "1.0"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

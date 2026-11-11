@@ -1,0 +1,13 @@
+# build output (install.py builds / downloads these)
+/build/
+__pycache__/
+*.pyc
+
+# machine-specific
+/docs/backup-path.txt
+/tools/
+
+# never commit Telegram credentials or sessions
+tg.json
+*.session
+*.session-journal
