@@ -2,16 +2,18 @@
 
 Анимированная тема для KDE Plasma 6 в глубоком ночном синем. Обои, панель, док и виджеты пульсируют под музыку, а цвет всей темы меняется на лету: 18 палитр, RGB-перелив, цвет обложки трека или свой.
 
-![Midnight Pulse](screenshots/desktop.png)
+[![Midnight Pulse: видео-обзор](screenshots/preview.jpg)](https://gerolheld.github.io/MidnightPulse/)
 
-▶ **[Видео-обзор (1:15)](https://github.com/gerolheld/MidnightPulse/releases/download/v1.0/midnight-pulse-showcase.mp4)**: палитры под бит, RGB-перелив, цвет обложки, Dynamic Island, док, рабочие столы.
+▶ **[Смотреть видео-обзор (1:15)](https://gerolheld.github.io/MidnightPulse/)**: палитры под бит, RGB-перелив, цвет обложки, Dynamic Island, док, рабочие столы.
+
+![Палитры](screenshots/palettes.jpg)
 
 ## Установка
 
 Нужны **KDE Plasma 6** (лучше на Wayland) и **Arch / CachyOS / EndeavourOS / Manjaro**.
 
 ```bash
-git clone https://github.com/gerolheld/MidnightPulse.git
+git clone --depth 1 https://github.com/gerolheld/MidnightPulse.git
 cd MidnightPulse
 ./install.sh
 ```
