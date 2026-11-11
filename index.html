@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Midnight Pulse · видео-обзор</title>
+<meta name="description" content="Анимированная тема для KDE Plasma 6: обои, панель, док и виджеты пульсируют под музыку.">
+<meta property="og:title" content="Midnight Pulse · видео-обзор">
+<meta property="og:image" content="https://gerolheld.github.io/MidnightPulse/poster.jpg">
+<style>
+  :root { --bg: #070B18; --text: #DCE8FF; --dim: #8FA3C8; --accent: #1EB0EA; --glow: rgba(30,176,234,.35); }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: radial-gradient(1200px 600px at 50% -10%, #12245a 0%, var(--bg) 60%);
+         color: var(--text); font: 16px/1.5 Inter, system-ui, sans-serif; display: flex; flex-direction: column; align-items: center; padding: 32px 16px; }
+  h1 { margin: 0 0 4px; font-size: clamp(26px, 4vw, 40px); letter-spacing: .5px; }
+  p { margin: 0 0 24px; color: var(--dim); text-align: center; }
+  video { width: min(1280px, 100%); aspect-ratio: 16/9; border-radius: 16px; background: #000;
+          border: 1px solid rgba(95,208,255,.35); box-shadow: 0 0 60px var(--glow); }
+  a.btn { display: inline-block; margin-top: 24px; padding: 10px 22px; border-radius: 999px; color: var(--text); text-decoration: none;
+          background: rgba(30,176,234,.15); border: 1px solid rgba(95,208,255,.5); }
+  a.btn:hover { background: rgba(30,176,234,.3); }
+</style>
+</head>
+<body>
+  <h1>Midnight Pulse</h1>
+  <p>Анимированная тема для KDE Plasma 6: палитры под бит, RGB-перелив, цвет обложки, Dynamic Island, док.</p>
+  <video controls preload="metadata" playsinline poster="poster.jpg"
+         src="showcase.mp4"></video>
+  <a class="btn" href="https://github.com/gerolheld/MidnightPulse">Репозиторий и установка →</a>
+</body>
+</html>
