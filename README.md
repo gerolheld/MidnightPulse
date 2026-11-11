@@ -11,7 +11,7 @@
 Нужны **KDE Plasma 6** (лучше на Wayland) и **Arch / CachyOS / EndeavourOS / Manjaro**.
 
 ```bash
-git clone https://github.com/<you>/MidnightPulse.git
+git clone https://github.com/gerolheld/MidnightPulse.git
 cd MidnightPulse
 ./install.sh
 ```

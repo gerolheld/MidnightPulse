@@ -19,8 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-Files that carry their own SPDX-License-Identifier header (the lock screen in
-src/plasma/look-and-feel/org.midnightpulse.desktop/contents/lockscreen/, derived
-from KDE Plasma) remain under the license stated in that header.
